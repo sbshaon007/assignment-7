@@ -1,0 +1,231 @@
+body{
+		font-family: 'Open Sans', sans-serif;
+}
+
+/* header area*/
+header{
+	width: 100%;
+	height: auto;
+	float: left;
+	background:white;
+	position: relative;
+	background-size: cover;
+	
+}
+
+/*
+.header:before {
+    content: '';
+    position: absolute;
+    background: #3c3b3ba3;
+    height: 100%;
+    width: 100%;
+    top: 0%;}
+*/
+
+/*  logo and nav */
+
+.logo {
+	padding: 30px 0px 10px 30px ;
+}
+
+.nav-left{
+	float: left;
+}
+.nav-right{
+	display: inline-block;
+
+	text-align: center;
+	float: right;
+	padding: 56px 0px 20px 0px;
+	color: #005D7F;
+}
+.nav-right ul{
+	list-style-type: none;
+
+
+}
+.nav-right ul li{
+	display: inline-block;
+	
+}
+.nav-right ul li a{
+
+color:#005D7F;
+
+text-decoration: none;
+
+padding: 15px 37px;
+
+margin-top: 15px;
+
+
+}
+.nav-right ul li a:hover{
+
+color:#c9c9c9;
+
+text-decoration: none;
+
+padding: 15px 37px;
+
+margin-top: 15px;
+
+
+}
+
+
+
+.line {
+	float: left;
+	width: 100%;
+	background: #E4E4E4;
+	padding: 4px 0px;
+
+}
+
+
+.contact {
+
+    background: #F14838;
+}
+
+.contact-content-left h2 {
+    color: white;
+    font-size: 47px;
+    font-weight: bold;
+    padding: 35px 0px;
+}
+
+.contact-content-left p {
+    font-size: 15px;
+    color: white;
+    padding-top: 25px;
+
+}
+
+.box-row{
+	padding-bottom: 50px;
+}
+.f-c {
+    background: #FF6153;
+    border: none;
+    padding: 31px;
+    border-radius: 1px;
+}
+.form-group h4 {
+    color: white;
+    font-size: 20px;
+}
+.submit-btn{
+	    font-size: 37px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 83px;
+    background: none;
+    border: none;
+    font-family: Dancing Script;
+    font-style: italic;
+    font-weight: bold;
+}
+.submit-btn:hover{
+	color:#28282E;
+	background:none;
+}
+
+.contact-content-right{
+	padding: 100px 30px;
+	
+}
+.right-img{
+	width:350px;
+}
+
+
+
+.ft{
+	background-color: #F13E2C;
+
+	text-align: center;
+}
+.footer-text {
+	color: white;
+	padding:25px 0px 10px 0px;
+}
+
+
+
+
+/* media query*/
+
+@media(min-width: 320px) and (max-width: 500px){
+		.contact-content-left h2 {
+    	text-align: center;
+}
+.right-img{
+	display: block;
+	margin: 0 auto;
+	
+}
+		.nav-right{
+				float: left;
+				width: 100%;
+				padding: 10px 0px 20px 0px;
+				color: #005D7F;
+				}
+			.nav-right ul li a {
+			    color: #005D7F;
+			    text-decoration: none;
+			    padding: 0px 14px;
+			    margin-top: 15px;}
+
+    .nav-right ul li a:hover{
+
+			color:#c9c9c9;
+			text-decoration: none;
+			 padding: 0px 14px;
+    		margin-top: 15px;}
+
+}
+@media(min-width: 501px) and (max-width: 768px){
+			.contact-content-left h2 {
+    	text-align: center;
+}
+.right-img{
+	display: block;
+	margin: 0 auto;
+	
+}
+		
+			.nav-right{
+				float: left;
+				padding: 10px 0px 20px 0px;
+				color: #005D7F;
+					}
+}
+@media(min-width: 769px) and (max-width: 1200px){
+
+		.contact-content-left h2 {
+    	text-align: center;
+}
+.right-img{
+	display: block;
+	margin: 0 auto;
+	
+}
+			.logo{
+				padding: 31px 0px 10px 165px;
+			}
+			.nav-right{
+			
+	  
+			    /* width: 100%; */
+			    /* float: left; */
+			    
+			       margin: -14px 97px
+
+							
+			}
+
+}
